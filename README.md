@@ -1,8 +1,8 @@
-_﻿Advanced Techniques for System Identification and Validation in Complex Environments_
+# _Advanced Techniques for System Identification and Validation in Complex Environments_
 
 **Author:** Tudor-Cristian Sîngerean 
 
-1. **Project description**
+## Project Description
 
 The objective of this project is to develop a nonlinear ARX model that captures the relationship between the system's input and output signals. This model, based on a linear-in-parameters structure with a polynomial form, is characterized by parameters ***na***, ***nb***, ***nk*** and ***m***.
 
@@ -12,7 +12,7 @@ The project focuses on building and validating a system model based on input-out
 
 ![datedein2](https://github.com/s1ng3/Shoe_Shop/assets/89934251/fb9a4d12-55ab-4a63-904d-67eb2bd1b6da)
 
-2. **Implementation**
+## Implementation
 
 For developing a nonlinear ARX model using the identification data, constructing the regressor line based on past input and output values and also the design matrix '**ϕ**' for identification and simulation is considered to be an optimal approach.
 
@@ -34,7 +34,7 @@ Upon achieving the coefficients θ , the generation of the predictive model for 
 
 The model parameters are estimated through linear regression, and the performance is evaluated using MSE values for prediction and simulation errors.
 
-3. **Tuning parameters**
+## Tuning Parameters
 
 One can observe that by taking ***na = nb** ,* the structure of the model is simplified by reducing the number of independent parametric combinations.
 
@@ -48,8 +48,7 @@ By decreasing ***nk*** , the time delay doesn’t affect the system in such a ma
 
 Increasing ***m*** allows the model to capture more complex patterns while decreasing ***m*** simplifies the model, making it more linear.
 
-
-4. **Plots**
+## Plots
 
 To provide the precision of our model on the validation data, we calculate the Mean Squared Error (MSE). This way we can measure how close our model's predictions are to the actual values from the validation set.
 
@@ -65,8 +64,8 @@ In our provided dataset, the optimal model for the validation data corresponds t
 
 Additionally, it's noticeable that as increases, the Mean Squared Error (MSE) for the identification and validation data decreases, indicating a better fit. 
 
+## Conclusions
 
-5. **Conclusions**
 - The provided MATLAB code offers a systematic approach to identify and approximate a dynamic system using a linear-in-parameters model with a polynomial structure.
 
 - The choice of parameters ***na***, ***nb***, ***nk***, and ***m*** allows for flexibility in tailoring the model to specific system characteristics.
