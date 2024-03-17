@@ -72,5 +72,3 @@ Additionally, it's noticeable that as increases, the Mean Squared Error (MSE) fo
 - This approach is valuable in various engineering applications where accurate system modeling is needed for successful control and optimization.
 
 - For example, aircraft control systems must ensure stability, performance, and safety during various flight conditions. Accurate modeling is essential for designing control systems that respond predictably to pilot commands and external factors like turbulence.
-
-**'phi\_function\_id'**  for creating the identification phi matrix 
