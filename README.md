@@ -10,6 +10,8 @@ The code utilizes MATLAB to approach, identify and approximate a dynamic system 
 
 The project focuses on building and validating a system model based on input-output data. The identified model is then used for prediction and simulation, and the performance is evaluated through mean squared errors. The system could be a dynamic system in a control or industrial process, and the project aims to develop a mathematical representation of its behavior.
 
+![datedein2](https://github.com/s1ng3/Shoe_Shop/assets/89934251/fb9a4d12-55ab-4a63-904d-67eb2bd1b6da)
+
 2. **Implementation**
 
 For developing a nonlinear ARX model using the identification data, constructing the regressor line based on past input and output values and also the design matrix '**ϕ**' for identification and simulation is considered to be an optimal approach.
@@ -55,6 +57,8 @@ By calculating the MSE for different values with the below formula, the understa
 
 The most straightforward way to visualize the accuracy of the model is by using MATLAB in order to calculate and display the Mean Square Errors.
 
+
+![idinval2](https://github.com/s1ng3/Shoe_Shop/assets/89934251/7f835b43-cb49-40db-9fa8-7eab61cb6012)
 
 
 In our provided dataset, the optimal model for the validation data corresponds to ***na = nb = 1***. ***nk*** will be taken as **1** by default and the best fitting degree will be ***m = 3***.
