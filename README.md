@@ -1,4 +1,4 @@
-﻿Advanced Techniques for System Identification and Validation in Complex Environments
+_﻿Advanced Techniques for System Identification and Validation in Complex Environments_
 
 **Author:** Tudor-Cristian Sîngerean 
 
